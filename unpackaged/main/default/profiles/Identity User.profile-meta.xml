@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
+    <userLicense>Identity</userLicense>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Active__c</field>
@@ -14,6 +15,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.NumberofLocations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Permissions_Test__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -41,7 +47,6 @@
         <recordType>Account.Gearset_renewal</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
-    <userLicense>Identity</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
