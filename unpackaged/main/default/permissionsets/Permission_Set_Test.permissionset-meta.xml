@@ -2,9 +2,4 @@
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <hasActivationRequired>false</hasActivationRequired>
     <label>Permission Set Test</label>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Permissions_Test__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
 </PermissionSet>
